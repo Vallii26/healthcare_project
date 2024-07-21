@@ -4,7 +4,7 @@ import React from 'react'
 import StatCard from '../../components/StatCard'
 import { getRecentAppointmentList } from '../../lib/actions/appointment.actions'
 import {DataTable} from '../../components/table/DataTable'
-import {Payment, columns} from '../../components/table/columns'
+import {columns} from '../../components/table/columns'
 
 const Admin = async () => {
     const appointments = await getRecentAppointmentList()
